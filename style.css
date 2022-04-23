@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,700;0,900;1,500&display=swap');
+
+body{
+    background-color: red;
+    width: auto;
+    height: auto;
+    font-family: 'Red Hat Display';
+    height : 100vh;
+    width: 100vw;
+    background-color: hsl(225, 100%, 94%);
+}
+
+
+section{
+    height : 100vh;
+    width: auto;
+    
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.card{
+    background: rgb(255, 255, 255);
+    width: 360px;
+    height: 560px;
+    border-radius: 18px;
+}
+
+.card_top{
+    /* background-color: #fff; */
+    width: 100%;
+    height: 180px;
+}
+
+.card_top img{
+    width: 100%;
+    height: auto;
+    border-radius: 18px 18px 0px 0px;
+
+}
+
+.card_info{
+    text-align: center;
+    display: block;
+
+}
+
+.bill_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card_billrec{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+    width: 290px;
+    height: 80px;
+    background: hsla(0, 0%, 93%, 0.522);
+    border-radius:13px;
+   
+}
+
+
+
+
+.left{
+
+    width: 50%;
+    margin-left: 10px;
+    
+}
+
+.left svg{
+
+    float: left;
+    height: 47px;
+    width: 47px;
+    border-radius: 50%;
+    margin-right: 10px;
+    
+}
+
+.bill_price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card_type{
+    margin: 5px auto;
+    font-size: 13px
+    
+}
+
+.card_price{
+    margin: 0 auto;
+    font-size: 13px;
+}
+
+.right{
+
+    margin-right: 10px;
+    font-size: 10px;
+    color: #382AE1;
+    text-decoration: underline;
+
+}
+
+.card_button{
+
+    /* text-align: center; */
+    margin-top: 30px;
+}
+
+.card_approved{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    width: 290px;
+    height: 40px;
+    margin: auto;
+    background-color: hsl(245, 75%, 52%);
+    color: #fff;
+    border-radius: 14px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.card_cancel{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    color: hsl(0, 0%, 64%);
+    cursor: pointer;
+}
